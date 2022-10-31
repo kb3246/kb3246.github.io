@@ -1,13 +1,55 @@
 ---
-title: "About Me"
+title: "Kasturi Bhamidipati"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Here's a little bit about me! 
 
-I am Kasturi Bhamidipati, a second-year MPH student at Columbia University Mailman School of Public Health. 
+## Profile 
+
+I am a highly motivated MPH-level epidemiologist with experience in quantitative data analysis. I am passionate about making public health and healthcare services more equitable and accessible, using data and research to support decision-making.
+
+## Education
+
+* Columbia University Mailman School of Public Health, NY (Sept 2021 - May 2023 expected)
+  * Master of Public Health, Epidemiology (GPA = 4.16/4.0)
+  
+* PES University, India (August 2017- May 2021)
+  * Bachelor of Technology, Biotechnology (GPA = 3.6/4.0)
+
+## Work Experience 
+
+#### Columbia University Mailman School of Public Health (September 2022 – Present)
+Teaching Assistant, Public Health Interventions
+
+- Supported the development of coursework and graded student assignments for a graduate class of 400+ students.
+- Provided support and guidance to students through weekly office hours and emails regarding course content and assignments.
+
+#### Heluna Health, Department of Research and Evaluation (May 2022 – August 2022)
+Data Analysis Intern 
+
+- Developed 9 metrics to assess access to social safety net services as a part of a research project that aims to develop a composite index to measure county-level preparedness for disease outbreaks.
+- Conducted data management and quantitative analysis using SAS. Data were gathered from Census surveys and other government and research programs for 3000+ US counties.
+- Created data visualizations using ArcGIS and collaborated with the team to produce a data brief.
+
+#### Institution of Bioinformatics and Applied Biotechnology (January 2021 – May 2021)
+Research Intern, Synthetic Biology Laboratory
+
+- Assisted in a project aimed to bio-transform Citronellol to Rose Oxide which involved cloning and recombinant expression of metabolic enzymes in E. coli.
+- Performed PCRs, Golden Gate/Gibson assemblies, gene cloning, restriction digestion processes, affinity chromatography and biochemical assays.
+
+## Research Projects 
+
+#### Assessing the Association between Asthma and Air Pollution using GIS Techniques 
+
+- Research question: What are the spatial relationships between PM2.5 air pollution and asthma hospitalizations among adults in New York City?
+- Approach: Used SAS and QGIS to assess the data for spatial correlation between asthma outcomes and demographic factors to identify potential hotspots for asthma hospitalizations based on air pollution exposure levels. Results of this neighborhood-level analysis can inform future policies and interventions.
+
+#### Examining the Relationship between Alcohol Consumption and Sleep Deprivation
+
+- Research question: Does increased alcohol consumption increase the odds of sleep deprivation among adults aged 21-70?
+- Approach: Using a nationally representative survey sample of 2,650 adults aged 21-70, I performed logistic regression modeling to quantify the association and evaluate potential confounding by age, gender, and income.
 
 

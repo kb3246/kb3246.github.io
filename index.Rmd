@@ -6,10 +6,15 @@ output:
     toc_float: true
 ---
 
-# This is Kasturi's website
+# Intro to the website 
+
+Here's my website for Data Science HW-4. This website has information about me and the answers for the homework problems. I hope you enjoy looking through it! 
+
+# Know more about me
+
+Hi, I'm Kasturi Bhamidipati, the author of this website. If you want to know more about me, click [here](about.html)! 
 
 
-# Know more about me! 
 
-[About me](about.html)
+
 

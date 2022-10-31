@@ -11,4 +11,4 @@ navbar:
       href: http://github.com/kb3246/
 output:
   html_document:
-    theme: cerulean
+    theme: flatly
