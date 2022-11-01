@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Flexdashboard"
+      href: plotly.html
     - icon: fa-envelope fa-lg
       href: mailto:<bhamidipatikasturi@gmail.com>
     - icon: fa-github fa-lg

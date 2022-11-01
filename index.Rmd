@@ -5,14 +5,25 @@ output:
     toc: true
     toc_float: true
 ---
+![](https://media.tenor.com/luE_kr8Ht8kAAAAC/star-wars-hello.gif)
 
-# Intro to the website 
+# *Welcome!* 
 
-Here's my website for Data Science HW-4. This website has information about me and the answers for the homework problems. I hope you enjoy looking through it! 
+I'm Kasturi, and this is my website! 
 
-# Know more about me
+Here, you will find information about me, including my professional and academic experience and my contact information, including links to my email and GitHub.   
 
-Hi, I'm Kasturi Bhamidipati, the author of this website. If you want to know more about me, click [here](about.html)! 
+You will also find a flexdashboard made using `plotly` containing three distinct graphs from the ` NY NOAA` dataset. 
+
+I hope you enjoy looking through it, and please reach out if you have any comments and suggestions to improve your experience! 
+
+# *Know more about me*
+
+If you want to know more about my professional and academic experience, click [here](about.html)! 
+
+# *Flexdashboard*
+
+Click [here](plotly.html) to navigate to the flexdashboard. 
 
 
 
