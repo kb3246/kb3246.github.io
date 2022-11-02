@@ -23,7 +23,7 @@ If you want to know more about my professional and academic experience, click [h
 
 # *Flexdashboard*
 
-Click [here](plotly.html) to navigate to the flexdashboard. 
+Click [here](dashboard.html) to navigate to the dashboard. 
 
 
 

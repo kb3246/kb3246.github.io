@@ -1,13 +1,14 @@
 ---
-title: "Interactive Plots"
+title: "Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
 
-```{r}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -33,10 +34,12 @@ nys_weather =
     )
 ```
 
-# Scatterplot 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-Tmax vs. Tmin 
+### Chart A
 
+Scatterplot of `tmax` vs. `tmin`
 ```{r}
 nys_weather %>% 
   plot_ly(
@@ -45,10 +48,12 @@ nys_weather %>%
   )
 ```
 
-# Line Plot
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 Maximum monthly temperatures recorded across 5-years (2006-2010)
-
 ```{r}
 nys_weather %>% 
   group_by(month, year)%>%
@@ -60,10 +65,9 @@ nys_weather %>%
   )
 ```
 
-# Bar Plot
+### Chart C
 
-Maximum monthly precipitation in 2010
-
+Maximum monthly precipitation recorded in 2010
 ```{r}
 nys_weather %>% 
   group_by(month, year)%>%
