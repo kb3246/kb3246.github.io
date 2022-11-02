@@ -19,7 +19,7 @@ data("ny_noaa")
 
 nys_weather = 
   ny_noaa %>%
-  sample_n(2000) %>% 
+  sample_n(20000) %>% 
   janitor::clean_names() %>%
   separate(date, into = c("year", "month", "day"), sep = "-", convert = TRUE)%>%
   mutate(month = month.abb[month], 
@@ -37,23 +37,21 @@ nys_weather =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
-
-Scatterplot of `tmax` vs. `tmin`
+### Chart A - Scatterplot of `tmax` vs. `tmin`
 ```{r}
 nys_weather %>% 
   plot_ly(
     x = ~tmin, y = ~tmax, color = ~month,
     alpha = .5, type = "scatter", mode = "markers", colors = "viridis"
-  )
+  )%>%
+  plotly::layout(yaxis = list(title = 'tmax (C)'),
+         xaxis = list(title = 'tmin (C)'))
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
-
-Maximum monthly temperatures recorded across 5-years (2006-2010)
+### Chart B - Maximum monthly temperatures recorded across 5-years (2006-2010)
 ```{r}
 nys_weather %>% 
   group_by(month, year)%>%
@@ -62,12 +60,12 @@ nys_weather %>%
   plot_ly(
     x = ~year, y = ~max_temp, color = ~month,
     alpha = .5, type = "scatter", mode = "line", colors = "viridis"
-  )
+  )%>% 
+  layout(yaxis = list(title = 'Maximum Temperature (C)'),
+         xaxis = list(title = 'Year'))
 ```
 
-### Chart C
-
-Maximum monthly precipitation recorded in 2010
+### Chart C - Maximum monthly precipitation recorded in 2010
 ```{r}
 nys_weather %>% 
   group_by(month, year)%>%
@@ -76,6 +74,8 @@ nys_weather %>%
   plot_ly(
     x = ~year, y = ~max_prcp, color = ~month, 
     alpha = .5, type = "bar", colors = "viridis"
-  )
+  )%>% 
+  layout(yaxis = list(title = 'Maximum Precipitation (mm)'),
+         xaxis = list(title = 'Year'))
 ```
 

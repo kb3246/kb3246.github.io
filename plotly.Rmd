@@ -18,7 +18,7 @@ data("ny_noaa")
 
 nys_weather = 
   ny_noaa %>%
-  sample_n(2000) %>% 
+  sample_n(20000) %>% 
   janitor::clean_names() %>%
   separate(date, into = c("year", "month", "day"), sep = "-", convert = TRUE)%>%
   mutate(month = month.abb[month], 
@@ -74,4 +74,5 @@ nys_weather %>%
     alpha = .5, type = "bar", colors = "viridis"
   )
 ```
+
 
