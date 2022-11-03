@@ -21,7 +21,7 @@ I'm a second year MPH student at Columbia University Mailman School of Public He
 
 # *Connect with me!* 
 
-You can connect with me on my [LinkedIn](https://www.linkedin.com/in/kasturi-bhamidipati-58a1791bb/) or reach out to me via email at [kb3246@cumc.columbia.edu](). 
+You can connect with me on my [LinkedIn](https://www.linkedin.com/in/kasturi-bhamidipati-58a1791bb/) or reach out to me via email at [kb3246@cumc.columbia.edu](mailto:kb3246@cumc.columbia.edu). 
 
 You can also access my GitHub account [here](http://github.com/kb3246/). 
 
