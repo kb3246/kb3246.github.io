@@ -21,7 +21,7 @@ I'm a second year MPH student at Columbia University Mailman School of Public He
 
 # *Connect with me!* 
 
-You can connect with me on my [LinkedIn](https://www.linkedin.com/in/kasturi-bhamidipati-58a1791bb/) or reach out to me via email at [kb3246@cumc.columbia.edu](kb3246@cumc.columbia.edu). 
+You can connect with me on my [LinkedIn](https://www.linkedin.com/in/kasturi-bhamidipati-58a1791bb/) or reach out to me via email at [kb3246@cumc.columbia.edu](). 
 
 You can also access my GitHub account [here](http://github.com/kb3246/). 
 
@@ -36,7 +36,7 @@ I created three distinct plots (bar, scatter and line) using a random sample (n=
 - The bar plot shows the maximum precipitation recorded in each month of the year 2010.
 
 
-*This website was created at a part of an [assignment](https://p8105.com/homework_4.html) for the [Data Science P8105 course](https://p8105.com) in Fall 2022.*
+*This website was created for an [assignment](https://p8105.com/homework_4.html) for the [Data Science P8105 course](https://p8105.com) in Fall 2022.*
 
 
 
